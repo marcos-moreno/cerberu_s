@@ -83,9 +83,6 @@ Partial Class frmRegistro
         Me.txtHrsExtDefault = New System.Windows.Forms.TextBox()
         Me.tabRegManua = New System.Windows.Forms.TabPage()
         Me.SplitContainer8 = New System.Windows.Forms.SplitContainer()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.dgvEmpleadoCopy = New System.Windows.Forms.DataGridView()
         Me.chbConcervar = New System.Windows.Forms.CheckBox()
         Me.cbDispositivo = New System.Windows.Forms.ComboBox()
         Me.dgvEmpleadosADD = New System.Windows.Forms.DataGridView()
@@ -188,6 +185,10 @@ Partial Class frmRegistro
         Me.tabEmpl = New System.Windows.Forms.TabPage()
         Me.dgvEmpleado = New System.Windows.Forms.DataGridView()
         Me.contenTabs = New System.Windows.Forms.TabControl()
+        Me.txtPerfilCalculo = New System.Windows.Forms.Label()
+        Me.dgvEmpleadoCopy = New System.Windows.Forms.DataGridView()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.MenuStrip1.SuspendLayout()
         Me.HorasExtra.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -198,7 +199,6 @@ Partial Class frmRegistro
         Me.SplitContainer8.Panel1.SuspendLayout()
         Me.SplitContainer8.Panel2.SuspendLayout()
         Me.SplitContainer8.SuspendLayout()
-        CType(Me.dgvEmpleadoCopy, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.dgvEmpleadosADD, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.calculosCO.SuspendLayout()
         Me.calculosES.SuspendLayout()
@@ -246,6 +246,7 @@ Partial Class frmRegistro
         Me.tabEmpl.SuspendLayout()
         CType(Me.dgvEmpleado, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.contenTabs.SuspendLayout()
+        CType(Me.dgvEmpleadoCopy, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'lblSeleccion2
@@ -380,13 +381,13 @@ Partial Class frmRegistro
         'btnIRImprimir
         '
         Me.btnIRImprimir.Name = "btnIRImprimir"
-        Me.btnIRImprimir.Size = New System.Drawing.Size(180, 22)
+        Me.btnIRImprimir.Size = New System.Drawing.Size(125, 22)
         Me.btnIRImprimir.Text = "Imprimir"
         '
         'btnIRModificar
         '
         Me.btnIRModificar.Name = "btnIRModificar"
-        Me.btnIRModificar.Size = New System.Drawing.Size(180, 22)
+        Me.btnIRModificar.Size = New System.Drawing.Size(125, 22)
         Me.btnIRModificar.Text = "Modificar"
         '
         'btnIIncidencias
@@ -400,38 +401,38 @@ Partial Class frmRegistro
         '
         Me.btnIRDelEmpleado.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.btnIRDEImprimir, Me.btnIRDEModificar})
         Me.btnIRDelEmpleado.Name = "btnIRDelEmpleado"
-        Me.btnIRDelEmpleado.Size = New System.Drawing.Size(180, 22)
+        Me.btnIRDelEmpleado.Size = New System.Drawing.Size(147, 22)
         Me.btnIRDelEmpleado.Text = "Del Empleado"
         '
         'btnIRDEImprimir
         '
         Me.btnIRDEImprimir.Name = "btnIRDEImprimir"
-        Me.btnIRDEImprimir.Size = New System.Drawing.Size(180, 22)
+        Me.btnIRDEImprimir.Size = New System.Drawing.Size(125, 22)
         Me.btnIRDEImprimir.Text = "Imprimir"
         '
         'btnIRDEModificar
         '
         Me.btnIRDEModificar.Name = "btnIRDEModificar"
-        Me.btnIRDEModificar.Size = New System.Drawing.Size(180, 22)
+        Me.btnIRDEModificar.Size = New System.Drawing.Size(125, 22)
         Me.btnIRDEModificar.Text = "Modificar"
         '
         'btnIRDelPeriodo
         '
         Me.btnIRDelPeriodo.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.btnIRDPImprimir, Me.btnIRDPModificar})
         Me.btnIRDelPeriodo.Name = "btnIRDelPeriodo"
-        Me.btnIRDelPeriodo.Size = New System.Drawing.Size(180, 22)
+        Me.btnIRDelPeriodo.Size = New System.Drawing.Size(147, 22)
         Me.btnIRDelPeriodo.Text = "Del Periodo"
         '
         'btnIRDPImprimir
         '
         Me.btnIRDPImprimir.Name = "btnIRDPImprimir"
-        Me.btnIRDPImprimir.Size = New System.Drawing.Size(180, 22)
+        Me.btnIRDPImprimir.Size = New System.Drawing.Size(125, 22)
         Me.btnIRDPImprimir.Text = "Imprimir"
         '
         'btnIRDPModificar
         '
         Me.btnIRDPModificar.Name = "btnIRDPModificar"
-        Me.btnIRDPModificar.Size = New System.Drawing.Size(180, 22)
+        Me.btnIRDPModificar.Size = New System.Drawing.Size(125, 22)
         Me.btnIRDPModificar.Text = "Modificar"
         '
         'btnITiket
@@ -444,7 +445,7 @@ Partial Class frmRegistro
         'btnITiketMod
         '
         Me.btnITiketMod.Name = "btnITiketMod"
-        Me.btnITiketMod.Size = New System.Drawing.Size(180, 22)
+        Me.btnITiketMod.Size = New System.Drawing.Size(125, 22)
         Me.btnITiketMod.Text = "Modificar"
         '
         'btnFaltasXPeriodo
@@ -457,7 +458,7 @@ Partial Class frmRegistro
         'btnFaltasXPeriodoMod
         '
         Me.btnFaltasXPeriodoMod.Name = "btnFaltasXPeriodoMod"
-        Me.btnFaltasXPeriodoMod.Size = New System.Drawing.Size(180, 22)
+        Me.btnFaltasXPeriodoMod.Size = New System.Drawing.Size(125, 22)
         Me.btnFaltasXPeriodoMod.Text = "Modificar"
         '
         'bteTiempoExtraXPeriodo
@@ -471,39 +472,39 @@ Partial Class frmRegistro
         '
         Me.ModificarToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.bteModSem})
         Me.ModificarToolStripMenuItem.Name = "ModificarToolStripMenuItem"
-        Me.ModificarToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ModificarToolStripMenuItem.Size = New System.Drawing.Size(126, 22)
         Me.ModificarToolStripMenuItem.Text = "X Semana"
         '
         'bteModSem
         '
         Me.bteModSem.Name = "bteModSem"
-        Me.bteModSem.Size = New System.Drawing.Size(180, 22)
+        Me.bteModSem.Size = New System.Drawing.Size(125, 22)
         Me.bteModSem.Text = "Modificar"
         '
         'XMesToolStripMenuItem
         '
         Me.XMesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.bteModMes})
         Me.XMesToolStripMenuItem.Name = "XMesToolStripMenuItem"
-        Me.XMesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.XMesToolStripMenuItem.Size = New System.Drawing.Size(126, 22)
         Me.XMesToolStripMenuItem.Text = "X mes"
         '
         'bteModMes
         '
         Me.bteModMes.Name = "bteModMes"
-        Me.bteModMes.Size = New System.Drawing.Size(180, 22)
+        Me.bteModMes.Size = New System.Drawing.Size(125, 22)
         Me.bteModMes.Text = "Modificar"
         '
         'XAñoToolStripMenuItem
         '
         Me.XAñoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.bteModAnio})
         Me.XAñoToolStripMenuItem.Name = "XAñoToolStripMenuItem"
-        Me.XAñoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.XAñoToolStripMenuItem.Size = New System.Drawing.Size(126, 22)
         Me.XAñoToolStripMenuItem.Text = "X año"
         '
         'bteModAnio
         '
         Me.bteModAnio.Name = "bteModAnio"
-        Me.bteModAnio.Size = New System.Drawing.Size(180, 22)
+        Me.bteModAnio.Size = New System.Drawing.Size(125, 22)
         Me.bteModAnio.Text = "Modificar"
         '
         'CardexTiempoExtraToolStripMenuItem
@@ -516,7 +517,7 @@ Partial Class frmRegistro
         'bteModificarCardex
         '
         Me.bteModificarCardex.Name = "bteModificarCardex"
-        Me.bteModificarCardex.Size = New System.Drawing.Size(180, 22)
+        Me.bteModificarCardex.Size = New System.Drawing.Size(125, 22)
         Me.bteModificarCardex.Text = "Modificar"
         '
         'btnRegAnt
@@ -573,6 +574,7 @@ Partial Class frmRegistro
         '
         'HorasExtra
         '
+        Me.HorasExtra.Controls.Add(Me.txtPerfilCalculo)
         Me.HorasExtra.Controls.Add(Me.GroupBox3)
         Me.HorasExtra.Controls.Add(Me.dgridCardex)
         Me.HorasExtra.Controls.Add(Me.GroupBox2)
@@ -792,42 +794,6 @@ Partial Class frmRegistro
         Me.SplitContainer8.Size = New System.Drawing.Size(1322, 506)
         Me.SplitContainer8.SplitterDistance = 791
         Me.SplitContainer8.TabIndex = 17
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(10, 13)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(59, 13)
-        Me.Label7.TabIndex = 12
-        Me.Label7.Text = "Empleados"
-        '
-        'Button3
-        '
-        Me.Button3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button3.Location = New System.Drawing.Point(673, 8)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(101, 23)
-        Me.Button3.TabIndex = 12
-        Me.Button3.Text = "Agregar >>"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'dgvEmpleadoCopy
-        '
-        Me.dgvEmpleadoCopy.AllowUserToAddRows = False
-        Me.dgvEmpleadoCopy.AllowUserToDeleteRows = False
-        Me.dgvEmpleadoCopy.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.dgvEmpleadoCopy.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells
-        Me.dgvEmpleadoCopy.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvEmpleadoCopy.Location = New System.Drawing.Point(13, 40)
-        Me.dgvEmpleadoCopy.MultiSelect = False
-        Me.dgvEmpleadoCopy.Name = "dgvEmpleadoCopy"
-        Me.dgvEmpleadoCopy.ReadOnly = True
-        Me.dgvEmpleadoCopy.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvEmpleadoCopy.Size = New System.Drawing.Size(761, 453)
-        Me.dgvEmpleadoCopy.TabIndex = 3
         '
         'chbConcervar
         '
@@ -2009,6 +1975,53 @@ Partial Class frmRegistro
         Me.contenTabs.Size = New System.Drawing.Size(1226, 560)
         Me.contenTabs.TabIndex = 0
         '
+        'txtPerfilCalculo
+        '
+        Me.txtPerfilCalculo.AutoSize = True
+        Me.txtPerfilCalculo.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPerfilCalculo.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.txtPerfilCalculo.Location = New System.Drawing.Point(14, 463)
+        Me.txtPerfilCalculo.Name = "txtPerfilCalculo"
+        Me.txtPerfilCalculo.Size = New System.Drawing.Size(102, 13)
+        Me.txtPerfilCalculo.TabIndex = 36
+        Me.txtPerfilCalculo.Text = "Perfil De Cálculo"
+        '
+        'dgvEmpleadoCopy
+        '
+        Me.dgvEmpleadoCopy.AllowUserToAddRows = False
+        Me.dgvEmpleadoCopy.AllowUserToDeleteRows = False
+        Me.dgvEmpleadoCopy.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.dgvEmpleadoCopy.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells
+        Me.dgvEmpleadoCopy.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvEmpleadoCopy.Location = New System.Drawing.Point(13, 40)
+        Me.dgvEmpleadoCopy.MultiSelect = False
+        Me.dgvEmpleadoCopy.Name = "dgvEmpleadoCopy"
+        Me.dgvEmpleadoCopy.ReadOnly = True
+        Me.dgvEmpleadoCopy.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.dgvEmpleadoCopy.Size = New System.Drawing.Size(761, 453)
+        Me.dgvEmpleadoCopy.TabIndex = 3
+        '
+        'Button3
+        '
+        Me.Button3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button3.Location = New System.Drawing.Point(673, 8)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(101, 23)
+        Me.Button3.TabIndex = 12
+        Me.Button3.Text = "Agregar >>"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(10, 13)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(59, 13)
+        Me.Label7.TabIndex = 12
+        Me.Label7.Text = "Empleados"
+        '
         'frmRegistro
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -2037,6 +2050,7 @@ Partial Class frmRegistro
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.HorasExtra.ResumeLayout(False)
+        Me.HorasExtra.PerformLayout()
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()
         CType(Me.dgridCardex, System.ComponentModel.ISupportInitialize).EndInit()
@@ -2049,7 +2063,6 @@ Partial Class frmRegistro
         Me.SplitContainer8.Panel2.PerformLayout()
         CType(Me.SplitContainer8, System.ComponentModel.ISupportInitialize).EndInit()
         Me.SplitContainer8.ResumeLayout(False)
-        CType(Me.dgvEmpleadoCopy, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.dgvEmpleadosADD, System.ComponentModel.ISupportInitialize).EndInit()
         Me.calculosCO.ResumeLayout(False)
         Me.calculosCO.PerformLayout()
@@ -2108,6 +2121,7 @@ Partial Class frmRegistro
         Me.tabEmpl.ResumeLayout(False)
         CType(Me.dgvEmpleado, System.ComponentModel.ISupportInitialize).EndInit()
         Me.contenTabs.ResumeLayout(False)
+        CType(Me.dgvEmpleadoCopy, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -2161,9 +2175,6 @@ Partial Class frmRegistro
     Friend WithEvents txtNumHorasExtras As TextBox
     Friend WithEvents tabRegManua As TabPage
     Friend WithEvents SplitContainer8 As SplitContainer
-    Friend WithEvents Label7 As Label
-    Friend WithEvents Button3 As Button
-    Friend WithEvents dgvEmpleadoCopy As DataGridView
     Friend WithEvents chbConcervar As CheckBox
     Friend WithEvents cbDispositivo As ComboBox
     Friend WithEvents dgvEmpleadosADD As DataGridView
@@ -2278,4 +2289,8 @@ Partial Class frmRegistro
     Friend WithEvents GroupBox3 As GroupBox
     Friend WithEvents CardexTiempoExtraToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents bteModificarCardex As ToolStripMenuItem
+    Friend WithEvents txtPerfilCalculo As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Button3 As Button
+    Friend WithEvents dgvEmpleadoCopy As DataGridView
 End Class

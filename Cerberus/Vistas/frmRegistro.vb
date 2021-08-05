@@ -210,7 +210,6 @@
             btePermisos_mg.Visible = False
             incidenciasDep.Visible = False
         End If
-
     End Sub
 
     Private Sub enableBteHrsExtra()
@@ -218,7 +217,7 @@
         Dim solicituPermiso As SolicitudPermiso = New SolicitudPermiso(Ambiente)
         solicituPermiso.idEmpleado = Ambiente.usuario.idEmpleado
         Dim depsLider As Integer = solicituPermiso.esLider()
-        If (depsLider > 0 Or Ambiente.usuario.tipoUsuarioSistema = "RH") And objCbPerido(cbPeriodo.SelectedIndex).esActivo = True Then
+        If (depsLider > 0 Or Ambiente.usuario.tipoUsuarioSistema = "RH") And objCbPerido(cbPeriodo.SelectedIndex).esActivo = True And objDGEmpl.Item(indicedEmpleadoSeleccionado).perfilCalculo <> "Destajista" Then
             habilitaCtlHrsExtra = True
         Else
             habilitaCtlHrsExtra = False
@@ -298,6 +297,7 @@
             horasExtras.idPeriodo = perido.idPeriodo
 
             txtHrsExtDefault.Text = objDGEmpl.Item(indicedEmpleadoSeleccionado).cantidadHoras
+            txtPerfilCalculo.Text = "Perfil de cálculo: " & objDGEmpl.Item(indicedEmpleadoSeleccionado).perfilCalculo
             chbHorasLimiteHorasExtrasEmpleado.Checked = objDGEmpl.Item(indicedEmpleadoSeleccionado).forzarLimiteHorasExtras
             chbHorasExtrAutEmpleado.Checked = objDGEmpl.Item(indicedEmpleadoSeleccionado).tieneHorasExtrasAut
             cargaCardexHorasExtras()
