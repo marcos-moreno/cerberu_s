@@ -1,0 +1,804 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="1">
+      <dataTable Ref="2" type="DataTableSource" isKey="true">
+        <Alias>dataTable</Alias>
+        <Columns isList="true" count="28">
+          <value>nombreDepartamento,System.String</value>
+          <value>idEmpleado,System.Int32</value>
+          <value>Incidencia,System.String</value>
+          <value>nEmpleado,System.String</value>
+          <value>Fecha,System.DateTime</value>
+          <value>HorasXDia,System.DateTime</value>
+          <value>MinXDia,System.TimeSpan</value>
+          <value>EntradaLaboral,System.TimeSpan</value>
+          <value>Reg1,System.DateTime</value>
+          <value>tipoReg1,System.String</value>
+          <value>Reg2,System.DateTime</value>
+          <value>tipoReg2,System.String</value>
+          <value>Reg3,System.DateTime</value>
+          <value>tipoReg3,System.String</value>
+          <value>Reg4,System.DateTime</value>
+          <value>tipoReg4,System.String</value>
+          <value>Reg5,System.DateTime</value>
+          <value>tipoReg5,System.String</value>
+          <value>Reg6,System.DateTime</value>
+          <value>tipoReg6,System.String</value>
+          <value>Reg7,System.DateTime</value>
+          <value>tipoReg7,System.String</value>
+          <value>Reg8,System.DateTime</value>
+          <value>tipoReg8,System.String</value>
+          <value>TiempoExtra,System.Int32</value>
+          <value>TotalHoras2,System.DateTime</value>
+          <value>TotalHoras,System.TimeSpan</value>
+          <value>nIncidencia,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>dataTable</Name>
+        <NameInSource>Periodo.dataTable</NameInSource>
+      </dataTable>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Resources isList="true" count="0" />
+    <Variables isList="true" count="6">
+      <value>,InicioPerido,InicioPerido,,System.String,_x0030_5_x0020_febrero_x0020_2018,False,False,False,False</value>
+      <value>,FinPeriodo,FinPeriodo,,System.String,_x0031_1_x0020_febrero_x0020_2018,False,False,False,False</value>
+      <value>,nombrePeriodo,nombrePeriodo,,System.String,SEMANA_x0020_6,False,False,False,False</value>
+      <value>,numeroPeriodo,numeroPeriodo,,System.String,_x0036_,False,False,False,False</value>
+      <value>,razonSocial,razonSocial,,System.String,R-F_x0020_HOODS_x0020__x0026__x0020_TRUCK_x0020_PARTS_x0020_SA_x0020_DE_x0020_CV,False,False,False,False</value>
+      <value>,rfcEmpresa,rfcEmpresa,,System.String,RHA070809SU4_x0020__x0020__x0020_,False,False,False,False</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="3" type="Page" isKey="true">
+      <Border>All;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="6">
+        <PageHeaderBand1 Ref="4" type="PageHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,19.6,3.6</ClientRectangle>
+          <Components isList="true" count="6">
+            <Text25 Ref="5" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.8,0.6,15.8,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,16,Bold</Font>
+              <Guid>82fa2c4fb7274ed98f96893c353c88bd</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text25</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>FORMATO SEMANAL (REGISTROS)</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text25>
+            <Text24 Ref="6" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>17.2,3,2.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <Guid>c315284887b04bc494a82c5d218234ba</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text24</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>Página:   {PageNumber} / {TotalPageCount}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text24>
+            <Text37 Ref="7" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>3.6,3,8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8,Bold</Font>
+              <Guid>76dc4e24a0b545678a7622dac0545c3e</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text37</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>Fecha de Impresión:  {Time}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text37>
+            <Text23 Ref="8" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>3.8,1.4,15.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,16,Bold</Font>
+              <Guid>4da79a846e8443a88e477358454277d4</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text23</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>({numeroPeriodo}) {nombrePeriodo}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text23>
+            <Text26 Ref="9" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>3.8,2,15.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,12,Bold</Font>
+              <Guid>8324f723da9f46b6972385784eac4349</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text26</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>PERIODO: {InicioPerido} - {FinPeriodo}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text26>
+            <Text29 Ref="10" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.8,0,15.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,12,Bold</Font>
+              <Guid>3df58faf7d174761a10ed13170e12165</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text29</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>{razonSocial}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text29>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>PageHeaderBand1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </PageHeaderBand1>
+        <PageFooterBand1 Ref="11" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,24.7,19.6,1.2</ClientRectangle>
+          <Components isList="true" count="3">
+            <Text22 Ref="12" type="Text" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.2,0.7,5,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text22</Name>
+              <Page isRef="3" />
+              <Parent isRef="11" />
+              <Text>ELABORÓ</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text22>
+            <Text27 Ref="13" type="Text" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.4,0.7,5,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <Guid>e4c597f6511f4d008723e541c46db5ff</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text27</Name>
+              <Page isRef="3" />
+              <Parent isRef="11" />
+              <Text>Vo.Bo.</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text27>
+            <Text28 Ref="14" type="Text" isKey="true">
+              <Border>Top;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.4,0.7,5,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <Guid>4762631c1a084a75a2a0396eddff5a7f</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text28</Name>
+              <Page isRef="3" />
+              <Parent isRef="11" />
+              <Text>AUTORIZÓ</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text28>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>PageFooterBand1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </PageFooterBand1>
+        <GroupHeaderBand1 Ref="15" type="GroupHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,4.8,19.6,1</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text3 Ref="16" type="Text" isKey="true">
+              <Border>None;Black;1;Solid;True;4;Black</Border>
+              <Brush>[63:63:63]</Brush>
+              <ClientRectangle>0,0,19.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,16,Bold</Font>
+              <Guid>f83f85e300ed47bab6ec0c13facff30f</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="3" />
+              <Parent isRef="15" />
+              <Text>{dataTable.nombreDepartamento}</Text>
+              <TextBrush>White</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text3>
+          </Components>
+          <Condition>{dataTable.nombreDepartamento}</Condition>
+          <Conditions isList="true" count="0" />
+          <Name>GroupHeaderBand1</Name>
+          <NewPageBefore>True</NewPageBefore>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </GroupHeaderBand1>
+        <GroupHeaderBand2 Ref="17" type="GroupHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,6.6,19.6,1.4</ClientRectangle>
+          <Components isList="true" count="2">
+            <Text1 Ref="18" type="Text" isKey="true">
+              <Border>None;Black;1;Solid;True;4;Black</Border>
+              <Brush>[63:63:63]</Brush>
+              <ClientRectangle>0,0,19.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,12,Bold</Font>
+              <Guid>6641d4415a8746ea95a131f59fc216fe</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="3" />
+              <Parent isRef="17" />
+              <Text>{dataTable.nombreDepartamento} ({dataTable.idEmpleado}) - {dataTable.nEmpleado}</Text>
+              <TextBrush>White</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text1>
+            <Panel1 Ref="19" type="Panel" isKey="true">
+              <Border>All;Black;1;Solid;True;4;Black</Border>
+              <Brush>[191:191:191]</Brush>
+              <ClientRectangle>0,0.6,19.4,0.6</ClientRectangle>
+              <Components isList="true" count="10">
+                <Text7 Ref="20" type="Text" isKey="true">
+                  <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>0,0.2,3,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,8,Bold</Font>
+                  <Guid>c712839324f04ec18b02900e76956a36</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text7</Name>
+                  <Page isRef="3" />
+                  <Parent isRef="19" />
+                  <Text>FECHA</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text7>
+                <Text10 Ref="21" type="Text" isKey="true">
+                  <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>3,0.2,1.6,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,8,Bold</Font>
+                  <Guid>ad7425fd1ad24373baf9b620fbf3daaa</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text10</Name>
+                  <Page isRef="3" />
+                  <Parent isRef="19" />
+                  <Text>ENTRADA</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text10>
+                <Text4 Ref="22" type="Text" isKey="true">
+                  <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>4.6,0.2,1.6,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,8,Bold</Font>
+                  <Guid>4838b88e311f49b384700a7e13036209</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text4</Name>
+                  <Page isRef="3" />
+                  <Parent isRef="19" />
+                  <Text>SALIDA</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text4>
+                <Text5 Ref="23" type="Text" isKey="true">
+                  <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>6.2,0.2,1.6,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,8,Bold</Font>
+                  <Guid>066efaedf28c4c8db0397771f52f0410</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text5</Name>
+                  <Page isRef="3" />
+                  <Parent isRef="19" />
+                  <Text>ENTRADA</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text5>
+                <Text6 Ref="24" type="Text" isKey="true">
+                  <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>7.8,0.2,1.6,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,8,Bold</Font>
+                  <Guid>14c73eaac79d4db096d54b01c4942474</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text6</Name>
+                  <Page isRef="3" />
+                  <Parent isRef="19" />
+                  <Text>SALIDA</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text6>
+                <Text8 Ref="25" type="Text" isKey="true">
+                  <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>9.4,0.2,1.6,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,8,Bold</Font>
+                  <Guid>8d37aa21beed42c2a0fbc0fdac235436</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text8</Name>
+                  <Page isRef="3" />
+                  <Parent isRef="19" />
+                  <Text>ENTRADA</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text8>
+                <Text9 Ref="26" type="Text" isKey="true">
+                  <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>11,0.2,1.8,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,8,Bold</Font>
+                  <Guid>3c0198ff59524cc78300acd8ef59c310</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text9</Name>
+                  <Page isRef="3" />
+                  <Parent isRef="19" />
+                  <Text>SALIDA</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text9>
+                <Text18 Ref="27" type="Text" isKey="true">
+                  <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>12.8,0.2,1.8,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,8,Bold</Font>
+                  <Guid>080b3e5d3ced4622834abd10e5b31933</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text18</Name>
+                  <Page isRef="3" />
+                  <Parent isRef="19" />
+                  <Text>TOTAL LAB.</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text18>
+                <Text19 Ref="28" type="Text" isKey="true">
+                  <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>16.4,0.2,3,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,8,Bold</Font>
+                  <Guid>b96bf6e7102f4a41995c923e6c2e7390</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text19</Name>
+                  <Page isRef="3" />
+                  <Parent isRef="19" />
+                  <Text>DESCRIPCCIÓN</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text19>
+                <Text30 Ref="29" type="Text" isKey="true">
+                  <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>14.6,0.2,1.8,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,8,Bold</Font>
+                  <Guid>f3a6385850f341ca89ab4a45a56d2c22</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text30</Name>
+                  <Page isRef="3" />
+                  <Parent isRef="19" />
+                  <Text>T. EXTRA</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text30>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Guid>69f53a1b2b73420a9c88a0d7b2533cae</Guid>
+              <Name>Panel1</Name>
+              <Page isRef="3" />
+              <Parent isRef="17" />
+            </Panel1>
+          </Components>
+          <Condition>{dataTable.nEmpleado}</Condition>
+          <Conditions isList="true" count="0" />
+          <KeepGroupTogether>True</KeepGroupTogether>
+          <Name>GroupHeaderBand2</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </GroupHeaderBand2>
+        <DataBand1 Ref="30" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,8.8,19.6,0.4</ClientRectangle>
+          <Components isList="true" count="10">
+            <Text11 Ref="31" type="Text" isKey="true">
+              <Border>Left, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,3,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8,Bold</Font>
+              <Guid>22ae20da6e684e2fbabafeb249f4509a</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text11</Name>
+              <Page isRef="3" />
+              <Parent isRef="30" />
+              <Text>{dataTable.Fecha}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="32" type="CustomFormat" isKey="true">
+                <StringFormat>dddd dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text11>
+            <Text12 Ref="33" type="Text" isKey="true">
+              <Border>Left, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3,0,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="1">
+                <value>dataTable.tipoReg1,EqualTo,M,,String,White,Red,Arial_x002C_8_x002C_Bold,True,False,,,Left_x002C__x0020_Right_x002C__x0020_Bottom</value>
+              </Conditions>
+              <Font>Arial,8</Font>
+              <Guid>71057656f74244c3b8fb4e99aef60b27</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text12</Name>
+              <Page isRef="3" />
+              <Parent isRef="30" />
+              <Text>{dataTable.Reg1}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="34" type="TimeFormat" isKey="true">
+                <StringFormat>HH:mm:ss</StringFormat>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text12>
+            <Text2 Ref="35" type="Text" isKey="true">
+              <Border>Left, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.6,0,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="1">
+                <value>dataTable.tipoReg2,EqualTo,M,,String,White,Red,Arial_x002C_8_x002C_Bold,True,False,,,Left_x002C__x0020_Right_x002C__x0020_Bottom</value>
+              </Conditions>
+              <Font>Arial,8</Font>
+              <Guid>664d4023af5442958dc0111d37404084</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="3" />
+              <Parent isRef="30" />
+              <Text>{dataTable.Reg2}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="36" type="TimeFormat" isKey="true">
+                <StringFormat>HH:mm:ss</StringFormat>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text2>
+            <Text13 Ref="37" type="Text" isKey="true">
+              <Border>Left, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.2,0,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="1">
+                <value>dataTable.tipoReg3,EqualTo,M,,String,White,Red,Arial_x002C_8_x002C_Bold,True,False,,,Left_x002C__x0020_Right_x002C__x0020_Bottom</value>
+              </Conditions>
+              <Font>Arial,8</Font>
+              <Guid>cacd353ebf534772b6ff6c1e6736bb85</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text13</Name>
+              <Page isRef="3" />
+              <Parent isRef="30" />
+              <Text>{dataTable.Reg3}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="38" type="TimeFormat" isKey="true">
+                <StringFormat>HH:mm:ss</StringFormat>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text13>
+            <Text14 Ref="39" type="Text" isKey="true">
+              <Border>Left, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.8,0,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="1">
+                <value>dataTable.tipoReg4,EqualTo,M,,String,White,Red,Arial_x002C_8_x002C_Bold,True,False,,,Left_x002C__x0020_Right_x002C__x0020_Bottom</value>
+              </Conditions>
+              <Font>Arial,8</Font>
+              <Guid>7060fa2f0b2547cb86e9f9db5b741c1f</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text14</Name>
+              <Page isRef="3" />
+              <Parent isRef="30" />
+              <Text>{dataTable.Reg4}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="40" type="TimeFormat" isKey="true">
+                <StringFormat>HH:mm:ss</StringFormat>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text14>
+            <Text15 Ref="41" type="Text" isKey="true">
+              <Border>Left, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9.4,0,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="1">
+                <value>dataTable.tipoReg5,EqualTo,M,,String,White,Red,Arial_x002C_8_x002C_Bold,True,False,,,Left_x002C__x0020_Right_x002C__x0020_Bottom</value>
+              </Conditions>
+              <Font>Arial,8</Font>
+              <Guid>79b60819599143f0b0add3912a9abfb5</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text15</Name>
+              <Page isRef="3" />
+              <Parent isRef="30" />
+              <Text>{dataTable.Reg5}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="42" type="TimeFormat" isKey="true">
+                <StringFormat>HH:mm:ss</StringFormat>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text15>
+            <Text16 Ref="43" type="Text" isKey="true">
+              <Border>Left, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>11,0,1.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="1">
+                <value>dataTable.tipoReg6,EqualTo,M,,String,White,Red,Arial_x002C_8_x002C_Bold,True,False,,,Left_x002C__x0020_Right_x002C__x0020_Bottom</value>
+              </Conditions>
+              <Font>Arial,8</Font>
+              <Guid>a69842fcd905406abf19c0fcf156cf78</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text16</Name>
+              <Page isRef="3" />
+              <Parent isRef="30" />
+              <Text>{dataTable.Reg6}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="44" type="TimeFormat" isKey="true">
+                <StringFormat>HH:mm:ss</StringFormat>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text16>
+            <Text17 Ref="45" type="Text" isKey="true">
+              <Border>Left, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.8,0,1.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Guid>33a8e521162d4c8aadb922d7346b7b45</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text17</Name>
+              <Page isRef="3" />
+              <Parent isRef="30" />
+              <Text>{dataTable.TotalHoras}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="46" type="TimeFormat" isKey="true">
+                <StringFormat>HH:mm:ss</StringFormat>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text17>
+            <Text20 Ref="47" type="Text" isKey="true">
+              <Border>Left, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>16.4,0,3,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <Guid>a829d03798ca454db24376f8031d9f64</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="3" />
+              <Parent isRef="30" />
+              <Text>{dataTable.nIncidencia}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text20>
+            <Text31 Ref="48" type="Text" isKey="true">
+              <Border>Left, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>14.6,0,1.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Guid>d11571c006884f8ba6076f814898b07a</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text31</Name>
+              <Page isRef="3" />
+              <Parent isRef="30" />
+              <Text>{DateDiff(dataTable.TotalHoras2,dataTable.HorasXDia)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="49" type="TimeFormat" isKey="true">
+                <StringFormat>HH:mm:ss</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text31>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>dataTable</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Name>DataBand1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="2">
+            <value>ASC</value>
+            <value>Fecha</value>
+          </Sort>
+        </DataBand1>
+        <GroupFooterBand2 Ref="50" type="GroupFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,10,19.6,0.8</ClientRectangle>
+          <Components isList="true" count="3">
+            <Text21 Ref="51" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.8,0,1.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8,Bold</Font>
+              <Guid>a1cc497405184684a9cbb3579491ed71</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text21</Name>
+              <Page isRef="3" />
+              <Parent isRef="50" />
+              <Text>{SumTime(GroupHeaderBand2,dataTable.TotalHoras).Days*24 + SumTime(GroupHeaderBand2,dataTable.TotalHoras).Hours}:{SumTime(GroupHeaderBand2,dataTable.TotalHoras).Minutes}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text21>
+            <Text32 Ref="52" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>14.6,0,1.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8,Bold</Font>
+              <Guid>eef7abed8ef8403f87eeb3429c604dba</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text32</Name>
+              <Page isRef="3" />
+              <Parent isRef="50" />
+              <Text>{(int)((Sum(DataBand1,dataTable.TiempoExtra)/60)/60)}:{(int)((((Sum(DataBand1,dataTable.TiempoExtra)/60)/60) - (int)((Sum(DataBand1,dataTable.TiempoExtra)/60)/60))*60)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text32>
+            <HorizontalLinePrimitive1 Ref="53" type="HorizontalLinePrimitive" isKey="true">
+              <ClientRectangle>0,0.6,19.4,0.0254</ClientRectangle>
+              <Color>Black</Color>
+              <EndCap Ref="54" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </EndCap>
+              <Name>HorizontalLinePrimitive1</Name>
+              <Page isRef="3" />
+              <Parent isRef="50" />
+              <StartCap Ref="55" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </StartCap>
+            </HorizontalLinePrimitive1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>GroupFooterBand2</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </GroupFooterBand2>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>0c5963ae6891420096e63560d1c84c28</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>Page1</Name>
+      <PageHeight>27.9</PageHeight>
+      <PageWidth>21.6</PageWidth>
+      <PaperSize>Letter</PaperSize>
+      <Report isRef="0" />
+      <Watermark Ref="56" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings Ref="57" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>2/6/2018 2:20:44 PM</ReportChanged>
+  <ReportCreated>3/8/2017 11:53:47 AM</ReportCreated>
+  <ReportFile>C:\Users\joni_\Documents\Dropbox\Projects\INDEPENTIENTES\Cerberus\Cerberus\bin\Debug\FormatosDefault\PeriodoRegistros.mrt</ReportFile>
+  <ReportGuid>6297d28e515c439db17feed8fb8a32f8</ReportGuid>
+  <ReportImage isNull="true" />
+  <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2018.1.4.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        public Report()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>
