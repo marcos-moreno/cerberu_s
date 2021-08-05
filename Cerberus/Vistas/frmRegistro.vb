@@ -52,6 +52,7 @@
         If dgvEmpleado.SelectedRows.Count > 0 Then
             indicedEmpleadoSeleccionado = dgvEmpleado.SelectedRows.Item(0).Cells(0).Value
             asignarDatos(cbPeriodo.SelectedIndex)
+            enableBteHrsExtra()
         Else
             indicedEmpleadoSeleccionado = -1
 
@@ -97,6 +98,7 @@
             btnIRDPModificar.Visible = True
             btnIRModificar.Visible = True
             btnFaltasXPeriodoMod.Visible = True
+            bteInserRegisHO.Visible = True
         Else
             bteModSem.Visible = False
             bteModMes.Visible = False
@@ -217,11 +219,17 @@
         Dim solicituPermiso As SolicitudPermiso = New SolicitudPermiso(Ambiente)
         solicituPermiso.idEmpleado = Ambiente.usuario.idEmpleado
         Dim depsLider As Integer = solicituPermiso.esLider()
-        If (depsLider > 0 Or Ambiente.usuario.tipoUsuarioSistema = "RH") And objCbPerido(cbPeriodo.SelectedIndex).esActivo = True And objDGEmpl.Item(indicedEmpleadoSeleccionado).perfilCalculo <> "Destajista" Then
+        If (depsLider > 0 Or Ambiente.usuario.tipoUsuarioSistema = "RH") And
+            objCbPerido(cbPeriodo.SelectedIndex).esActivo = True Then
             habilitaCtlHrsExtra = True
         Else
             habilitaCtlHrsExtra = False
         End If
+
+        If objDGEmpl.Item(indicedEmpleadoSeleccionado).perfilCalculo = "Destajista" Then
+            habilitaCtlHrsExtra = False
+        End If
+
         btnActHorasExtras.Enabled = habilitaCtlHrsExtra
         btnActHorasExtrasEmpleado.Enabled = habilitaCtlHrsExtra
         txtNumHorasExtras.Enabled = habilitaCtlHrsExtra
@@ -756,12 +764,14 @@
     Private Sub RegAnteriorToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles btnRegAnt.Click
         If dgvEmpleado.SelectedRows.Item(0).Index <> 0 Then
             dgvEmpleado.Rows(dgvEmpleado.SelectedRows.Item(0).Index - 1).Selected = True
+            enableBteHrsExtra()
         End If
     End Sub
 
     Private Sub RegSiguienteToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles btnRegSiguiente.Click
         If dgvEmpleado.SelectedRows.Item(0).Index <> dgvEmpleado.Rows.Count - 1 Then
             dgvEmpleado.Rows(dgvEmpleado.SelectedRows.Item(0).Index + 1).Selected = True
+            enableBteHrsExtra()
         End If
     End Sub
 
@@ -1529,5 +1539,43 @@
     Private Sub ModificarToolStripMenuItem1_Click_1(sender As Object, e As EventArgs) Handles bteModificarCardex.Click
         Dim reportesGenerales As New ReportesGenerales(Ambiente)
         reportesGenerales.RPT_CardexHrsExtra(True, If(cbDepartamento.SelectedIndex <> -1, objCBDep(cbDepartamento.SelectedIndex).idDepartamento, 0), txtFiltro.Text)
+    End Sub
+
+    Private Sub Button11_Click_1(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub MaterialRaisedButton1_Click_2(sender As Object, e As EventArgs) Handles bteInserRegisHO.Click
+        Dim comentario As String = ""
+        comentario = InputBox("Ingresa el comentario de los registros", "Comentario")
+        If comentario = "" Then
+            Mensaje.tipoMsj = TipoMensaje.Alerta
+            Mensaje.Mensaje = "Proceso Cancelado"
+            Mensaje.ShowDialog()
+            Return
+        End If
+
+        If cbPeriodo.SelectedIndex <> -1 Then
+            Dim idEmpl As Integer
+            Try
+                idEmpl = objDGEmpl.Item(indicedEmpleadoSeleccionado).idEmpleado
+            Catch ex As Exception
+                Mensaje.tipoMsj = TipoMensaje.Error
+                Mensaje.Mensaje = "Es necesario seleccionar un ""EMPLEADO"" para poder Insertar los registros..."
+                Mensaje.ShowDialog()
+                Exit Sub
+            End Try
+
+            If objCbPerido(cbPeriodo.SelectedIndex).spCRegistrosModeHO(idEmpl, comentario) Then
+                Mensaje.tipoMsj = TipoMensaje.Informacion
+                Mensaje.Mensaje = "Se insertarón correctamente los registros de (" & objDGEmpl.Item(indicedEmpleadoSeleccionado).idEmpleado & ") """ & objDGEmpl.Item(indicedEmpleadoSeleccionado).nombreCompleto & """ en el periodo: " & objCbPerido(cbPeriodo.SelectedIndex).numeroPeriodo & " - " & objCbPerido(cbPeriodo.SelectedIndex).nombrePeriodo
+                asigaXDG()
+                contenTabs.SelectTab("tabReg")
+            Else
+                Mensaje.tipoMsj = TipoMensaje.Error
+                Mensaje.Mensaje = objCbPerido(cbPeriodo.SelectedIndex).descripError
+            End If
+            Mensaje.ShowDialog()
+        End If
     End Sub
 End Class

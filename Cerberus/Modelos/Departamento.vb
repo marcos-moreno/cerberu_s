@@ -68,6 +68,27 @@ Public Class Departamento
         End If
     End Sub
 
+    'Funcion getListByEmpresa
+    Public Sub getListByEmpresa(listCombos As List(Of Departamento))
+        Dim plantilla As Departamento
+        listCombos.Clear()
+        conex.Qry = "SELECT * FROM Departamento WHERE idEmpresa = " & Ambiente.empr.idEmpresa & " AND esActivo = 1 ORDER BY nombreDepartamento"
+        conex.numCon = 0
+        If conex.ejecutaConsulta() Then
+            While conex.reader.Read
+                plantilla = New Departamento(Ambiente)
+                plantilla.seteaDatos(conex.reader)
+                listCombos.Add(plantilla)
+            End While
+            conex.reader.Close()
+        Else
+            Mensaje.tipoMsj = TipoMensaje.Error
+            Mensaje.origen = "Departamento.listCombos:" & conex.descripError
+            Mensaje.Mensaje = conex.descripError
+            Mensaje.ShowDialog()
+        End If
+    End Sub
+
     Public Sub seteaDatos(rdr As SqlDataReader) Implements InterfaceTablas.seteaDatos
         idDepartamento = rdr("idDepartamento")
         idEmpresa = rdr("idEmpresa")

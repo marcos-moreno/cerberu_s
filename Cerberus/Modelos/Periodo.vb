@@ -112,6 +112,33 @@ Public Class Periodo
         Return False
     End Function
 
+
+
+    Public Function spCRegistrosModeHO(idEmpleado As Integer, Comentarios As String) As String
+        Dim valorRetono As String
+        valorRetono = "0"
+        conex.numCon = 0
+        conex.Qry = "EXEC [spCRegistrosModeHO] " & idPeriodo & "," & idEmpleado & ",'" & Comentarios & "'," & Ambiente.usuario.idEmpleado
+        If conex.ejecutaConsulta() Then
+            If conex.reader.Read Then
+                If IsDBNull(conex.reader("result")) Then
+                    conex.reader.Close()
+                    Return valorRetono
+                Else
+                    valorRetono = conex.reader("result")
+                    conex.reader.Close()
+                    Return valorRetono
+                End If
+            Else
+                conex.reader.Close()
+                Return valorRetono
+            End If
+        Else
+            descripError = conex.descripError
+            Return valorRetono
+        End If
+    End Function
+
     Private Function actualizaCargasGas() As Boolean
         Dim objCargas As New CargasGasolina(Ambiente)
         objCargas.idEmpresa = idEmpresa

@@ -94,7 +94,7 @@
             per.inicioPeriodo = Now
             per.finPeriodo = Now
             per.esActivo = True
-            btnProesar.Enabled = False
+            btnCerrarPeriodo.Enabled = False
         End If
 
         txtNombre.Text = per.nombrePeriodo
@@ -113,7 +113,7 @@
         Next
 
         If per.esActivo Then
-            btnProesar.Enabled = True
+            btnCerrarPeriodo.Enabled = True
             btnProcesarHorasExtras.Enabled = True
             'btnImpXEmpl.Enabled = False
             btnComidaDuplicados.Enabled = True
@@ -122,7 +122,7 @@
             btnComidaDuplicados.Enabled = False
             'btnImpXEmpl.Enabled = True
             btnProcesarHorasExtras.Enabled = False
-            btnProesar.Enabled = False
+            btnCerrarPeriodo.Enabled = False
             btnXPeriodo.Enabled = False
         End If
 
@@ -240,7 +240,7 @@
             btnAnterior.Enabled = False
             txtNombre.Select()
 
-            btnProesar.Enabled = False
+            btnCerrarPeriodo.Enabled = False
         Else
             btnNuevo.Enabled = True
             btnEliminar.Enabled = True
@@ -411,37 +411,6 @@
         End If
     End Sub
 
-    Private Sub btnProesar_Click(sender As Object, e As EventArgs) Handles btnProesar.Click
-        Dim idDep As Integer
-
-        Try
-            idDep = txtIDDep.Text
-        Catch ex As Exception
-            idDep = Nothing
-        End Try
-
-        If idDep = Nothing Then
-            Mensaje.tipoMsj = TipoMensaje.Pregunta
-            Mensaje.Mensaje = "Al no seleccionar departamento el sistema procesara todos los empleados faltantes de procesar. CERRARA Y GENERARA LAS CXP del periodo.¿ Desea continuar con este proceso... ?"
-            If Mensaje.ShowDialog() <> DialogResult.Yes Then
-                Exit Sub
-            End If
-        End If
-
-        Mensaje.tipoMsj = TipoMensaje.Informacion
-
-        If per.procesar("EFE", idDep, Nothing, If(chbSoloPendientes.Checked, False, True)) Then
-            Mensaje.Mensaje = "Se proceso correctamente el periodo: " & per.numeroPeriodo & " - " & per.nombrePeriodo
-            If idDep = Nothing Then
-                per.cargaGridCom(DataGridView1, objDgvPer)
-            End If
-        Else
-            Mensaje.Mensaje = per.descripError
-        End If
-
-        Mensaje.ShowDialog()
-    End Sub
-
     Private Sub btnBuscarAbono_Click(sender As Object, e As EventArgs) Handles btnBuscarAbono.Click
         frmBuscarConceptoCuenta.Ambiente = Ambiente
         frmBuscarConceptoCuenta.tipoCuenta = "CxP"
@@ -521,5 +490,70 @@
 
     Private Sub btnModConcentradoAgrupado_Click(sender As Object, e As EventArgs) Handles btnModConcentradoAgrupado.Click
         per.RPT_ModificarDatosConcentradoAgrupado()
+    End Sub
+
+    Private Sub Button1_Click_2(sender As Object, e As EventArgs) Handles calculaXdep.Click
+        Dim idDep As Integer
+        Try
+            idDep = txtIDDep.Text
+        Catch ex As Exception
+            idDep = Nothing
+        End Try
+        If idDep = Nothing Then
+            Mensaje.tipoMsj = TipoMensaje.Pregunta
+            Mensaje.Mensaje = "Al no seleccionar departamento el sistema procesara todos los departamentos de la empresa, ¿Desea continuar con este proceso?"
+            If Mensaje.ShowDialog() <> DialogResult.Yes Then
+                Exit Sub
+            End If
+        End If
+
+        If idDep = Nothing Then
+            Dim listDepartamentos = New List(Of Departamento)
+            Dim departamento = New Departamento(Ambiente)
+            departamento.getListByEmpresa(listDepartamentos)
+            Dim mensajeStr As String
+            Mensaje.tipoMsj = TipoMensaje.Informacion
+            Mensaje.Mensaje = ""
+            calculaXdep.Text = "Procesando...."
+            For Each depa In listDepartamentos
+                If per.procesar("EFE", depa.idDepartamento, Nothing, If(chbSoloPendientes.Checked, False, True)) Then
+                    mensajeStr &= vbCrLf & "Se proceso correctamente el período en " & depa.nombreDepartamento & " : " & per.numeroPeriodo & " - " & per.nombrePeriodo
+                Else
+                    mensajeStr &= vbCrLf & "Error en: " & depa.nombreDepartamento & " - " & per.descripError
+                    Mensaje.tipoMsj = TipoMensaje.Error
+                End If
+            Next
+            per.cargaGridCom(DataGridView1, objDgvPer)
+            calculaXdep.Text = "Calcular X dep/emp"
+            Mensaje.Mensaje = mensajeStr
+            Mensaje.ShowDialog()
+        Else
+            Mensaje.tipoMsj = TipoMensaje.Informacion
+            If per.procesar("EFE", idDep, Nothing, If(chbSoloPendientes.Checked, False, True)) Then
+                Mensaje.Mensaje = "Se proceso correctamente el período: " & per.numeroPeriodo & " - " & per.nombrePeriodo
+                If idDep = Nothing Then
+                    per.cargaGridCom(DataGridView1, objDgvPer)
+                End If
+            Else
+                Mensaje.Mensaje = per.descripError
+            End If
+            Mensaje.ShowDialog()
+        End If
+    End Sub
+
+    Private Sub btnProesar_Click(sender As Object, e As EventArgs) Handles btnCerrarPeriodo.Click
+        Mensaje.tipoMsj = TipoMensaje.Pregunta
+        Mensaje.Mensaje = "El sistema procesara todos los empleados faltantes de procesar. CERRARÁ Y GENERARÁ LAS CXP del período, ¿Desea continuar con este proceso?"
+        If Mensaje.ShowDialog() <> DialogResult.Yes Then
+            Exit Sub
+        End If
+        Mensaje.tipoMsj = TipoMensaje.Informacion
+        If per.procesar("EFE", Nothing, Nothing, If(chbSoloPendientes.Checked, False, True)) Then
+            Mensaje.Mensaje = "Se proceso correctamente el período: " & per.numeroPeriodo & " - " & per.nombrePeriodo
+            per.cargaGridCom(DataGridView1, objDgvPer)
+        Else
+            Mensaje.Mensaje = per.descripError
+        End If
+        Mensaje.ShowDialog()
     End Sub
 End Class

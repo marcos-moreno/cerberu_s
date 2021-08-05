@@ -66,6 +66,7 @@ Partial Class frmRegistro
         Me.btePermisos_mg = New MaterialSkin.Controls.MaterialRaisedButton()
         Me.incidenciasDep = New MaterialSkin.Controls.MaterialRaisedButton()
         Me.HorasExtra = New System.Windows.Forms.TabPage()
+        Me.txtPerfilCalculo = New System.Windows.Forms.Label()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.chbHorasLimiteHorasExtras = New System.Windows.Forms.CheckBox()
         Me.Label34 = New System.Windows.Forms.Label()
@@ -83,6 +84,9 @@ Partial Class frmRegistro
         Me.txtHrsExtDefault = New System.Windows.Forms.TextBox()
         Me.tabRegManua = New System.Windows.Forms.TabPage()
         Me.SplitContainer8 = New System.Windows.Forms.SplitContainer()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.dgvEmpleadoCopy = New System.Windows.Forms.DataGridView()
         Me.chbConcervar = New System.Windows.Forms.CheckBox()
         Me.cbDispositivo = New System.Windows.Forms.ComboBox()
         Me.dgvEmpleadosADD = New System.Windows.Forms.DataGridView()
@@ -185,10 +189,7 @@ Partial Class frmRegistro
         Me.tabEmpl = New System.Windows.Forms.TabPage()
         Me.dgvEmpleado = New System.Windows.Forms.DataGridView()
         Me.contenTabs = New System.Windows.Forms.TabControl()
-        Me.txtPerfilCalculo = New System.Windows.Forms.Label()
-        Me.dgvEmpleadoCopy = New System.Windows.Forms.DataGridView()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Label7 = New System.Windows.Forms.Label()
+        Me.bteInserRegisHO = New MaterialSkin.Controls.MaterialRaisedButton()
         Me.MenuStrip1.SuspendLayout()
         Me.HorasExtra.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -199,6 +200,7 @@ Partial Class frmRegistro
         Me.SplitContainer8.Panel1.SuspendLayout()
         Me.SplitContainer8.Panel2.SuspendLayout()
         Me.SplitContainer8.SuspendLayout()
+        CType(Me.dgvEmpleadoCopy, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.dgvEmpleadosADD, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.calculosCO.SuspendLayout()
         Me.calculosES.SuspendLayout()
@@ -246,7 +248,6 @@ Partial Class frmRegistro
         Me.tabEmpl.SuspendLayout()
         CType(Me.dgvEmpleado, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.contenTabs.SuspendLayout()
-        CType(Me.dgvEmpleadoCopy, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'lblSeleccion2
@@ -586,6 +587,17 @@ Partial Class frmRegistro
         Me.HorasExtra.Text = "Horas Extra"
         Me.HorasExtra.UseVisualStyleBackColor = True
         '
+        'txtPerfilCalculo
+        '
+        Me.txtPerfilCalculo.AutoSize = True
+        Me.txtPerfilCalculo.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPerfilCalculo.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.txtPerfilCalculo.Location = New System.Drawing.Point(14, 463)
+        Me.txtPerfilCalculo.Name = "txtPerfilCalculo"
+        Me.txtPerfilCalculo.Size = New System.Drawing.Size(102, 13)
+        Me.txtPerfilCalculo.TabIndex = 36
+        Me.txtPerfilCalculo.Text = "Perfil De Cálculo"
+        '
         'GroupBox3
         '
         Me.GroupBox3.Controls.Add(Me.chbHorasLimiteHorasExtras)
@@ -794,6 +806,42 @@ Partial Class frmRegistro
         Me.SplitContainer8.Size = New System.Drawing.Size(1322, 506)
         Me.SplitContainer8.SplitterDistance = 791
         Me.SplitContainer8.TabIndex = 17
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(10, 13)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(59, 13)
+        Me.Label7.TabIndex = 12
+        Me.Label7.Text = "Empleados"
+        '
+        'Button3
+        '
+        Me.Button3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button3.Location = New System.Drawing.Point(673, 8)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(101, 23)
+        Me.Button3.TabIndex = 12
+        Me.Button3.Text = "Agregar >>"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'dgvEmpleadoCopy
+        '
+        Me.dgvEmpleadoCopy.AllowUserToAddRows = False
+        Me.dgvEmpleadoCopy.AllowUserToDeleteRows = False
+        Me.dgvEmpleadoCopy.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.dgvEmpleadoCopy.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells
+        Me.dgvEmpleadoCopy.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvEmpleadoCopy.Location = New System.Drawing.Point(13, 40)
+        Me.dgvEmpleadoCopy.MultiSelect = False
+        Me.dgvEmpleadoCopy.Name = "dgvEmpleadoCopy"
+        Me.dgvEmpleadoCopy.ReadOnly = True
+        Me.dgvEmpleadoCopy.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.dgvEmpleadoCopy.Size = New System.Drawing.Size(761, 453)
+        Me.dgvEmpleadoCopy.TabIndex = 3
         '
         'chbConcervar
         '
@@ -1429,6 +1477,7 @@ Partial Class frmRegistro
         '
         'tabReg
         '
+        Me.tabReg.Controls.Add(Me.bteInserRegisHO)
         Me.tabReg.Controls.Add(Me.cbSemanaRegs)
         Me.tabReg.Controls.Add(Me.btnProcesarHorasExtras)
         Me.tabReg.Controls.Add(Me.Label31)
@@ -1975,52 +2024,19 @@ Partial Class frmRegistro
         Me.contenTabs.Size = New System.Drawing.Size(1226, 560)
         Me.contenTabs.TabIndex = 0
         '
-        'txtPerfilCalculo
+        'bteInserRegisHO
         '
-        Me.txtPerfilCalculo.AutoSize = True
-        Me.txtPerfilCalculo.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPerfilCalculo.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.txtPerfilCalculo.Location = New System.Drawing.Point(14, 463)
-        Me.txtPerfilCalculo.Name = "txtPerfilCalculo"
-        Me.txtPerfilCalculo.Size = New System.Drawing.Size(102, 13)
-        Me.txtPerfilCalculo.TabIndex = 36
-        Me.txtPerfilCalculo.Text = "Perfil De Cálculo"
-        '
-        'dgvEmpleadoCopy
-        '
-        Me.dgvEmpleadoCopy.AllowUserToAddRows = False
-        Me.dgvEmpleadoCopy.AllowUserToDeleteRows = False
-        Me.dgvEmpleadoCopy.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.dgvEmpleadoCopy.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells
-        Me.dgvEmpleadoCopy.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvEmpleadoCopy.Location = New System.Drawing.Point(13, 40)
-        Me.dgvEmpleadoCopy.MultiSelect = False
-        Me.dgvEmpleadoCopy.Name = "dgvEmpleadoCopy"
-        Me.dgvEmpleadoCopy.ReadOnly = True
-        Me.dgvEmpleadoCopy.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvEmpleadoCopy.Size = New System.Drawing.Size(761, 453)
-        Me.dgvEmpleadoCopy.TabIndex = 3
-        '
-        'Button3
-        '
-        Me.Button3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button3.Location = New System.Drawing.Point(673, 8)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(101, 23)
-        Me.Button3.TabIndex = 12
-        Me.Button3.Text = "Agregar >>"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(10, 13)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(59, 13)
-        Me.Label7.TabIndex = 12
-        Me.Label7.Text = "Empleados"
+        Me.bteInserRegisHO.Depth = 0
+        Me.bteInserRegisHO.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.bteInserRegisHO.Location = New System.Drawing.Point(785, 11)
+        Me.bteInserRegisHO.MouseState = MaterialSkin.MouseState.HOVER
+        Me.bteInserRegisHO.Name = "bteInserRegisHO"
+        Me.bteInserRegisHO.Primary = True
+        Me.bteInserRegisHO.Size = New System.Drawing.Size(324, 23)
+        Me.bteInserRegisHO.TabIndex = 61
+        Me.bteInserRegisHO.Text = "Insertar Registros (Home Office)"
+        Me.bteInserRegisHO.UseVisualStyleBackColor = True
+        Me.bteInserRegisHO.Visible = False
         '
         'frmRegistro
         '
@@ -2063,6 +2079,7 @@ Partial Class frmRegistro
         Me.SplitContainer8.Panel2.PerformLayout()
         CType(Me.SplitContainer8, System.ComponentModel.ISupportInitialize).EndInit()
         Me.SplitContainer8.ResumeLayout(False)
+        CType(Me.dgvEmpleadoCopy, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.dgvEmpleadosADD, System.ComponentModel.ISupportInitialize).EndInit()
         Me.calculosCO.ResumeLayout(False)
         Me.calculosCO.PerformLayout()
@@ -2121,7 +2138,6 @@ Partial Class frmRegistro
         Me.tabEmpl.ResumeLayout(False)
         CType(Me.dgvEmpleado, System.ComponentModel.ISupportInitialize).EndInit()
         Me.contenTabs.ResumeLayout(False)
-        CType(Me.dgvEmpleadoCopy, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -2293,4 +2309,5 @@ Partial Class frmRegistro
     Friend WithEvents Label7 As Label
     Friend WithEvents Button3 As Button
     Friend WithEvents dgvEmpleadoCopy As DataGridView
+    Friend WithEvents bteInserRegisHO As MaterialSkin.Controls.MaterialRaisedButton
 End Class
