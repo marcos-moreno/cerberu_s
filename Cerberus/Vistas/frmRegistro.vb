@@ -1473,14 +1473,17 @@
         'Mensaje.ShowDialog()
 
         Dim motivo As String = ""
-        motivo = InputBox("Ingresa el motivo de la modificación", "Motivo")
-        If motivo = "" Then
-            Mensaje.tipoMsj = TipoMensaje.Alerta
-            Mensaje.Mensaje = "Proceso Cancelado"
-            Mensaje.ShowDialog()
-            Return
+        If Ambiente.usuario.tipoUsuarioSistema = "RH" Then
+            motivo = "Proceso Admin."
+        Else
+            motivo = InputBox("Ingresa el motivo de la modificación", "Motivo")
+            If motivo = "" Then
+                Mensaje.tipoMsj = TipoMensaje.Alerta
+                Mensaje.Mensaje = "Proceso Cancelado"
+                Mensaje.ShowDialog()
+                Return
+            End If
         End If
-
         Dim hayModificacion As Boolean = False
         'Dim objEmpleado As Empleado = objDGEmpl.Item(indicedEmpleadoSeleccionado)
 
@@ -1578,4 +1581,5 @@
             Mensaje.ShowDialog()
         End If
     End Sub
+
 End Class

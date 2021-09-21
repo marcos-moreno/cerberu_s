@@ -83,11 +83,11 @@ Public Class Evento
             Return False
         End If
 
-        If Not disp.validaLic And idTipoEvento <> TipoEvento.ExtraerInformacionReloj Then
-            idError = 1
-            descripError = "Licencia INVÁLIDA...!!!"
-            Return False
-        End If
+        'If Not disp.validaLic And idTipoEvento <> TipoEvento.ExtraerInformacionReloj Then
+        '    idError = 1
+        '    descripError = "Licencia INVÁLIDA...!!!"
+        '    Return False
+        'End If
 
         Select Case idTipoEvento
             Case TipoEvento.ExtraerRegistros

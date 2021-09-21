@@ -151,6 +151,7 @@ Partial Class frmRegistro
         Me.Button9 = New System.Windows.Forms.Button()
         Me.dgvIncidenciasCalculadas = New System.Windows.Forms.DataGridView()
         Me.tabReg = New System.Windows.Forms.TabPage()
+        Me.bteInserRegisHO = New MaterialSkin.Controls.MaterialRaisedButton()
         Me.cbSemanaRegs = New System.Windows.Forms.ComboBox()
         Me.btnProcesarHorasExtras = New System.Windows.Forms.Button()
         Me.Label31 = New System.Windows.Forms.Label()
@@ -189,7 +190,6 @@ Partial Class frmRegistro
         Me.tabEmpl = New System.Windows.Forms.TabPage()
         Me.dgvEmpleado = New System.Windows.Forms.DataGridView()
         Me.contenTabs = New System.Windows.Forms.TabControl()
-        Me.bteInserRegisHO = New MaterialSkin.Controls.MaterialRaisedButton()
         Me.MenuStrip1.SuspendLayout()
         Me.HorasExtra.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -590,11 +590,11 @@ Partial Class frmRegistro
         'txtPerfilCalculo
         '
         Me.txtPerfilCalculo.AutoSize = True
-        Me.txtPerfilCalculo.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPerfilCalculo.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPerfilCalculo.ForeColor = System.Drawing.SystemColors.ControlText
         Me.txtPerfilCalculo.Location = New System.Drawing.Point(14, 463)
         Me.txtPerfilCalculo.Name = "txtPerfilCalculo"
-        Me.txtPerfilCalculo.Size = New System.Drawing.Size(102, 13)
+        Me.txtPerfilCalculo.Size = New System.Drawing.Size(129, 17)
         Me.txtPerfilCalculo.TabIndex = 36
         Me.txtPerfilCalculo.Text = "Perfil De Cálculo"
         '
@@ -606,9 +606,10 @@ Partial Class frmRegistro
         Me.GroupBox3.Controls.Add(Me.chbHorasExtrasAutorizadas)
         Me.GroupBox3.Controls.Add(Me.btnActHorasExtras)
         Me.GroupBox3.Controls.Add(Me.Label33)
-        Me.GroupBox3.Location = New System.Drawing.Point(13, 20)
+        Me.GroupBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox3.Location = New System.Drawing.Point(378, 20)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(331, 430)
+        Me.GroupBox3.Size = New System.Drawing.Size(349, 430)
         Me.GroupBox3.TabIndex = 41
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Aplica solo para la semana seleccionada"
@@ -617,11 +618,11 @@ Partial Class frmRegistro
         '
         Me.chbHorasLimiteHorasExtras.AutoSize = True
         Me.chbHorasLimiteHorasExtras.Enabled = False
-        Me.chbHorasLimiteHorasExtras.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chbHorasLimiteHorasExtras.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.chbHorasLimiteHorasExtras.ForeColor = System.Drawing.SystemColors.ControlText
         Me.chbHorasLimiteHorasExtras.Location = New System.Drawing.Point(6, 77)
         Me.chbHorasLimiteHorasExtras.Name = "chbHorasLimiteHorasExtras"
-        Me.chbHorasLimiteHorasExtras.Size = New System.Drawing.Size(152, 17)
+        Me.chbHorasLimiteHorasExtras.Size = New System.Drawing.Size(188, 21)
         Me.chbHorasLimiteHorasExtras.TabIndex = 33
         Me.chbHorasLimiteHorasExtras.Text = "Límite de horas extras"
         Me.chbHorasLimiteHorasExtras.UseVisualStyleBackColor = True
@@ -629,20 +630,20 @@ Partial Class frmRegistro
         'Label34
         '
         Me.Label34.AutoSize = True
-        Me.Label34.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label34.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label34.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label34.Location = New System.Drawing.Point(3, 37)
+        Me.Label34.Location = New System.Drawing.Point(3, 25)
         Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(301, 13)
+        Me.Label34.Size = New System.Drawing.Size(333, 17)
         Me.Label34.TabIndex = 35
-        Me.Label34.Text = "(Al no activar se pagarán todas las hrs. generadas) "
+        Me.Label34.Text = "(Al no activar se pagarán horas por default) "
         '
         'txtNumHorasExtras
         '
         Me.txtNumHorasExtras.Enabled = False
         Me.txtNumHorasExtras.Location = New System.Drawing.Point(6, 228)
         Me.txtNumHorasExtras.Name = "txtNumHorasExtras"
-        Me.txtNumHorasExtras.Size = New System.Drawing.Size(97, 20)
+        Me.txtNumHorasExtras.Size = New System.Drawing.Size(97, 23)
         Me.txtNumHorasExtras.TabIndex = 31
         '
         'chbHorasExtrasAutorizadas
@@ -650,7 +651,7 @@ Partial Class frmRegistro
         Me.chbHorasExtrasAutorizadas.AutoSize = True
         Me.chbHorasExtrasAutorizadas.Location = New System.Drawing.Point(6, 147)
         Me.chbHorasExtrasAutorizadas.Name = "chbHorasExtrasAutorizadas"
-        Me.chbHorasExtrasAutorizadas.Size = New System.Drawing.Size(167, 30)
+        Me.chbHorasExtrasAutorizadas.Size = New System.Drawing.Size(218, 38)
         Me.chbHorasExtrasAutorizadas.TabIndex = 32
         Me.chbHorasExtrasAutorizadas.Text = "Permitir Generar Horas " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Despues del horario de Salida"
         Me.chbHorasExtrasAutorizadas.UseVisualStyleBackColor = True
@@ -659,9 +660,10 @@ Partial Class frmRegistro
         '
         Me.btnActHorasExtras.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btnActHorasExtras.Enabled = False
-        Me.btnActHorasExtras.Location = New System.Drawing.Point(6, 300)
+        Me.btnActHorasExtras.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnActHorasExtras.Location = New System.Drawing.Point(6, 299)
         Me.btnActHorasExtras.Name = "btnActHorasExtras"
-        Me.btnActHorasExtras.Size = New System.Drawing.Size(264, 29)
+        Me.btnActHorasExtras.Size = New System.Drawing.Size(330, 29)
         Me.btnActHorasExtras.TabIndex = 34
         Me.btnActHorasExtras.Text = "Actualizar hrs. del empleado en el périodo"
         Me.btnActHorasExtras.UseVisualStyleBackColor = True
@@ -669,9 +671,10 @@ Partial Class frmRegistro
         'Label33
         '
         Me.Label33.AutoSize = True
-        Me.Label33.Location = New System.Drawing.Point(3, 212)
+        Me.Label33.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label33.Location = New System.Drawing.Point(3, 208)
         Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(130, 13)
+        Me.Label33.Size = New System.Drawing.Size(175, 17)
         Me.Label33.TabIndex = 30
         Me.Label33.Text = "Limite de Horas (Decimal):"
         '
@@ -702,21 +705,22 @@ Partial Class frmRegistro
         Me.GroupBox2.Controls.Add(Me.btnActHorasExtrasEmpleado)
         Me.GroupBox2.Controls.Add(Me.Label37)
         Me.GroupBox2.Controls.Add(Me.txtHrsExtDefault)
-        Me.GroupBox2.Location = New System.Drawing.Point(350, 20)
+        Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox2.Location = New System.Drawing.Point(6, 19)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(377, 430)
+        Me.GroupBox2.Size = New System.Drawing.Size(368, 430)
         Me.GroupBox2.TabIndex = 38
         Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Horas autorizadas default"
+        Me.GroupBox2.Text = "Horas por default"
         '
         'chbHorasLimiteHorasExtrasEmpleado
         '
         Me.chbHorasLimiteHorasExtrasEmpleado.AutoSize = True
-        Me.chbHorasLimiteHorasExtrasEmpleado.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chbHorasLimiteHorasExtrasEmpleado.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.chbHorasLimiteHorasExtrasEmpleado.ForeColor = System.Drawing.SystemColors.ControlText
         Me.chbHorasLimiteHorasExtrasEmpleado.Location = New System.Drawing.Point(12, 77)
         Me.chbHorasLimiteHorasExtrasEmpleado.Name = "chbHorasLimiteHorasExtrasEmpleado"
-        Me.chbHorasLimiteHorasExtrasEmpleado.Size = New System.Drawing.Size(146, 17)
+        Me.chbHorasLimiteHorasExtrasEmpleado.Size = New System.Drawing.Size(180, 21)
         Me.chbHorasLimiteHorasExtrasEmpleado.TabIndex = 37
         Me.chbHorasLimiteHorasExtrasEmpleado.Text = "Límite de horas extra"
         Me.chbHorasLimiteHorasExtrasEmpleado.UseVisualStyleBackColor = True
@@ -724,29 +728,31 @@ Partial Class frmRegistro
         'Label38
         '
         Me.Label38.AutoSize = True
-        Me.Label38.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label38.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label38.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Label38.Location = New System.Drawing.Point(9, 25)
         Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(348, 13)
+        Me.Label38.Size = New System.Drawing.Size(357, 34)
         Me.Label38.TabIndex = 39
-        Me.Label38.Text = "Las horas asignadas se tomarán por default a cada semana."
+        Me.Label38.Text = "Las horas asignadas se tomarán en automático " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "al no modificar las del período"
         '
         'chbHorasExtrAutEmpleado
         '
         Me.chbHorasExtrAutEmpleado.AutoSize = True
+        Me.chbHorasExtrAutEmpleado.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.chbHorasExtrAutEmpleado.Location = New System.Drawing.Point(12, 147)
         Me.chbHorasExtrAutEmpleado.Name = "chbHorasExtrAutEmpleado"
-        Me.chbHorasExtrAutEmpleado.Size = New System.Drawing.Size(167, 30)
+        Me.chbHorasExtrAutEmpleado.Size = New System.Drawing.Size(218, 38)
         Me.chbHorasExtrAutEmpleado.TabIndex = 36
         Me.chbHorasExtrAutEmpleado.Text = "Permitir Generar Horas " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Despues del horario de Salida"
         Me.chbHorasExtrAutEmpleado.UseVisualStyleBackColor = True
         '
         'btnActHorasExtrasEmpleado
         '
+        Me.btnActHorasExtrasEmpleado.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnActHorasExtrasEmpleado.Location = New System.Drawing.Point(16, 300)
         Me.btnActHorasExtrasEmpleado.Name = "btnActHorasExtrasEmpleado"
-        Me.btnActHorasExtrasEmpleado.Size = New System.Drawing.Size(200, 29)
+        Me.btnActHorasExtrasEmpleado.Size = New System.Drawing.Size(285, 29)
         Me.btnActHorasExtrasEmpleado.TabIndex = 38
         Me.btnActHorasExtrasEmpleado.Text = "Actualizar hrs. del empleado"
         Me.btnActHorasExtrasEmpleado.UseVisualStyleBackColor = True
@@ -754,17 +760,18 @@ Partial Class frmRegistro
         'Label37
         '
         Me.Label37.AutoSize = True
-        Me.Label37.Location = New System.Drawing.Point(13, 212)
+        Me.Label37.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label37.Location = New System.Drawing.Point(6, 208)
         Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(96, 13)
+        Me.Label37.Size = New System.Drawing.Size(186, 17)
         Me.Label37.TabIndex = 36
-        Me.Label37.Text = "Horas Autorizadas:"
+        Me.Label37.Text = "Tope de Horas Autorizadas:"
         '
         'txtHrsExtDefault
         '
-        Me.txtHrsExtDefault.Location = New System.Drawing.Point(12, 228)
+        Me.txtHrsExtDefault.Location = New System.Drawing.Point(9, 228)
         Me.txtHrsExtDefault.Name = "txtHrsExtDefault"
-        Me.txtHrsExtDefault.Size = New System.Drawing.Size(97, 20)
+        Me.txtHrsExtDefault.Size = New System.Drawing.Size(97, 23)
         Me.txtHrsExtDefault.TabIndex = 37
         '
         'tabRegManua
@@ -1491,6 +1498,20 @@ Partial Class frmRegistro
         Me.tabReg.Text = "Registros"
         Me.tabReg.UseVisualStyleBackColor = True
         '
+        'bteInserRegisHO
+        '
+        Me.bteInserRegisHO.Depth = 0
+        Me.bteInserRegisHO.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.bteInserRegisHO.Location = New System.Drawing.Point(785, 11)
+        Me.bteInserRegisHO.MouseState = MaterialSkin.MouseState.HOVER
+        Me.bteInserRegisHO.Name = "bteInserRegisHO"
+        Me.bteInserRegisHO.Primary = True
+        Me.bteInserRegisHO.Size = New System.Drawing.Size(324, 23)
+        Me.bteInserRegisHO.TabIndex = 61
+        Me.bteInserRegisHO.Text = "Insertar Registros (Home Office)"
+        Me.bteInserRegisHO.UseVisualStyleBackColor = True
+        Me.bteInserRegisHO.Visible = False
+        '
         'cbSemanaRegs
         '
         Me.cbSemanaRegs.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
@@ -2023,20 +2044,6 @@ Partial Class frmRegistro
         Me.contenTabs.SelectedIndex = 0
         Me.contenTabs.Size = New System.Drawing.Size(1226, 560)
         Me.contenTabs.TabIndex = 0
-        '
-        'bteInserRegisHO
-        '
-        Me.bteInserRegisHO.Depth = 0
-        Me.bteInserRegisHO.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bteInserRegisHO.Location = New System.Drawing.Point(785, 11)
-        Me.bteInserRegisHO.MouseState = MaterialSkin.MouseState.HOVER
-        Me.bteInserRegisHO.Name = "bteInserRegisHO"
-        Me.bteInserRegisHO.Primary = True
-        Me.bteInserRegisHO.Size = New System.Drawing.Size(324, 23)
-        Me.bteInserRegisHO.TabIndex = 61
-        Me.bteInserRegisHO.Text = "Insertar Registros (Home Office)"
-        Me.bteInserRegisHO.UseVisualStyleBackColor = True
-        Me.bteInserRegisHO.Visible = False
         '
         'frmRegistro
         '

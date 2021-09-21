@@ -2018,3 +2018,263 @@ C:\Users\Marcos MG\Desktop\Cerberus\Cerberus\obj\Debug\Cerberus.vbproj.CopyCompl
 C:\Users\Marcos MG\Desktop\Cerberus\Cerberus\obj\Debug\Cerberus.exe
 C:\Users\Marcos MG\Desktop\Cerberus\Cerberus\obj\Debug\Cerberus.xml
 C:\Users\Marcos MG\Desktop\Cerberus\Cerberus\obj\Debug\Cerberus.pdb
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.vbprojAssemblyReference.cache
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Interop.zkemkeeper.dll
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.vbproj.ResolveComReference.cache
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmRangoFechas.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmCambioPassword.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmAcercaDE.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscaAtributo.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscaCaracteristica.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscaClasificacion.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscaCompañiaTelefonica.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscaDepartamento.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscaEmpleado.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscaEquipoTelefonico.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscaFormaPagoTraslado.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscaPlan.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscaProducto.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscaProveedor.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscar.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscarCaracteristicaProducto.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscarCocina.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscarCompras.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscarConceptoCuenta.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscarCuentas.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscarProductoCompuesto.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscarUbicacion.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscaSocio.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.FrmBuscaSucursal.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscaUbicacionFisica.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscaValor.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmCatalogo.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmDetalleFormatoImportacion.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmEmpresa.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmExportarInformacion.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmFecha.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmImportador.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmImportar.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmIncidenciasCTPQ.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmNuevoEstado.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmPagoCuenta.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmPrincipal.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmRegInvalidos.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmSelecConexion.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmSincCxPAdempiere.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.Mensaje.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.MsgSeleccionaValores.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmAsignaLiderDepto.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmPermiso.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmPermisoLider.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmActivarLicencia.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmCaracteristicaProd.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmCredenciales.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmCreditoFonacot.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmCryptLicencia.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmCxPCalculoPorcentaje.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmEntregas.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmIncrementos.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmProcesaIncidenciasGen.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmProductoCompuesto.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmCompras.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmOrigen.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmProducto.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmProveedor.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmPuestos.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmRegistrosV2.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmRenovacion.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmSolicitarLicencia.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmSucursal.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmTelefonia.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmVariablesFormulas.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmImportarIMSS.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.Resources.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmAccesoEmpleadoMenu.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmCacteristicaTabla.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.FrmCargasGasolina.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmCargoAbonoPrestamo.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmDireccionEmpleado.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmEnviaIncidencias.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmFonacot.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmImportarCONTPAQ.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmPrestamo.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmSocioNegocio.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmTipoIncidencia.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.FrmUnidad.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmConceptoCuenta.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmControlVacaciones.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmDestajo.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmDestajoClasificacionEmpleado.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmDestajoClasificacionPuntos.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmDestajoFactorBurbuja.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmDestajoUnionEmpleado.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmFormula.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmArchivo.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmCuentasXPeriodo.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmHorario.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmIncidencia.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.FrmMetodoPagoRuta.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmExtraerDestajos.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmRegistro.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmCocina.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmComentario.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmCuenta.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmDepartamento.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmDispositivo.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmEmpleado.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmEstadoCuenta.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmEvento.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmLogin.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmLogTransaccion.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmPeriodo.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.FrmRuta.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmTablaVacaciones.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmTabulador.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmVisitaSucursal.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmImportarINFONAVIT.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmIMSS.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmInfonavit.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.frmPrincipal.ccp-Cakm-IN.resources
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.vbproj.GenerateResource.cache
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.vbproj.CoreCompileInputs.cache
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.exe
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.xml
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.pdb
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\bin\Debug\Cerberus.exe.config
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\bin\Debug\Cerberus.exe
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\bin\Debug\Cerberus.pdb
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\bin\Debug\Cerberus.xml
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\bin\Debug\ccp-Cakm-IN\Cerberus.resources.dll
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\bin\Debug\MaterialSkin.dll
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\ccp-Cakm-IN\Cerberus.resources.dll
+C:\Users\Victor Rivera\Desktop\Nueva carpeta\cerberu_s\Cerberus\obj\Debug\Cerberus.vbproj.CopyComplete
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\bin\Debug\Cerberus.exe.config
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\bin\Debug\Cerberus.exe
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\bin\Debug\Cerberus.pdb
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\bin\Debug\Cerberus.xml
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\bin\Debug\ccp-Cakm-IN\Cerberus.resources.dll
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\bin\Debug\MaterialSkin.dll
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.vbproj.AssemblyReference.cache
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Interop.zkemkeeper.dll
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.vbproj.ResolveComReference.cache
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmRangoFechas.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmCambioPassword.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmAcercaDE.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscaAtributo.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscaCaracteristica.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscaClasificacion.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscaCompañiaTelefonica.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscaDepartamento.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscaEmpleado.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscaEquipoTelefonico.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscaFormaPagoTraslado.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscaPlan.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscaProducto.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscaProveedor.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscar.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscarCaracteristicaProducto.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscarCocina.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscarCompras.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscarConceptoCuenta.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscarCuentas.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscarProductoCompuesto.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscarUbicacion.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscaSocio.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.FrmBuscaSucursal.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscaUbicacionFisica.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmBuscaValor.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmCatalogo.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmDetalleFormatoImportacion.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmEmpresa.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmExportarInformacion.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmFecha.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmImportador.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmImportar.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmIncidenciasCTPQ.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmNuevoEstado.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmPagoCuenta.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmPrincipal.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmRegInvalidos.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmSelecConexion.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmSincCxPAdempiere.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.Mensaje.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.MsgSeleccionaValores.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmAsignaLiderDepto.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmPermiso.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmPermisoLider.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmActivarLicencia.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmCaracteristicaProd.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmCredenciales.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmCreditoFonacot.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmCryptLicencia.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmCxPCalculoPorcentaje.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmEntregas.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmIncrementos.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmProcesaIncidenciasGen.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmProductoCompuesto.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmCompras.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmOrigen.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmProducto.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmProveedor.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmPuestos.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmRegistrosV2.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmRenovacion.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmSolicitarLicencia.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmSucursal.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmTelefonia.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmVariablesFormulas.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmImportarIMSS.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.Resources.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmAccesoEmpleadoMenu.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmCacteristicaTabla.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.FrmCargasGasolina.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmCargoAbonoPrestamo.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmDireccionEmpleado.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmEnviaIncidencias.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmFonacot.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmImportarCONTPAQ.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmPrestamo.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmSocioNegocio.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmTipoIncidencia.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.FrmUnidad.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmConceptoCuenta.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmControlVacaciones.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmDestajo.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmDestajoClasificacionEmpleado.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmDestajoClasificacionPuntos.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmDestajoFactorBurbuja.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmDestajoUnionEmpleado.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmFormula.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmArchivo.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmCuentasXPeriodo.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmHorario.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmIncidencia.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.FrmMetodoPagoRuta.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmExtraerDestajos.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmRegistro.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmCocina.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmComentario.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmCuenta.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmDepartamento.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmDispositivo.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmEmpleado.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmEstadoCuenta.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmEvento.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmLogin.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmLogTransaccion.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmPeriodo.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.FrmRuta.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmTablaVacaciones.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmTabulador.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmVisitaSucursal.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmImportarINFONAVIT.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmIMSS.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmInfonavit.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.frmPrincipal.ccp-Cakm-IN.resources
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.vbproj.GenerateResource.cache
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.vbproj.CoreCompileInputs.cache
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\ccp-Cakm-IN\Cerberus.resources.dll
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.vbproj.CopyComplete
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.exe
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.xml
+C:\Users\25171\Documents\VB\cerberu_s\Cerberus\obj\Debug\Cerberus.pdb

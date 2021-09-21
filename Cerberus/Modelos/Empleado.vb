@@ -1068,16 +1068,16 @@ Public Class Empleado
             idError = 12
             descripError = "El Perfil de Cálculos del Empleado es un VALOR Obligatorio..."
             Return False
-        ElseIf perfilCalculo = "Destajista" Then
-            If idDestajoClasificacionPuntos = Nothing Then
-                idError = 14
-                descripError = "Es necesario indicar la clasificación de Puntos para el empleado, siendo un VALOR Obligatorio para los destajistas..."
-                Return False
-            ElseIf idDestajoClasificacionEmpeado = Nothing Then
-                idError = 15
-                descripError = "Es necesario indicar la clasificación ""TIPO de DESTAJISTA"" para el empleado, siendo un VALOR Obligatorio para los destajistas..."
-                Return False
-            End If
+            'ElseIf perfilCalculo = "Destajista" Then
+            '    If idDestajoClasificacionPuntos = Nothing Then
+            '        idError = 14
+            '        descripError = "Es necesario indicar la clasificación de Puntos para el empleado, siendo un VALOR Obligatorio para los destajistas..."
+            '        Return False
+            '    ElseIf idDestajoClasificacionEmpeado = Nothing Then
+            '        idError = 15
+            '        descripError = "Es necesario indicar la clasificación ""TIPO de DESTAJISTA"" para el empleado, siendo un VALOR Obligatorio para los destajistas..."
+            '        Return False
+            '    End If
         ElseIf tipoUsuarioSistema = Nothing Then
             idError = 16
             descripError = "El tipo de usuario para el acceso al sistema es un VALOR Obligatorio..."

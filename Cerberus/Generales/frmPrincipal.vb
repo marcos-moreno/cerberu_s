@@ -18,7 +18,7 @@ Public Class frmPrincipal
     Dim objRegPatronal As RegistroPatronal
 
     Private Sub frmPrincipal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        lblDetalle.Text = Ambiente.usuario.nombreCompleto & " | " & Ambiente.empr.nombreEmpresa & " | " & Ambiente.suc.nombreSucursal & " | " & Ambiente.conex.conexBuild(0).InitialCatalog & " | v1.4.0"
+        lblDetalle.Text = Ambiente.usuario.nombreCompleto & " | " & Ambiente.empr.nombreEmpresa & " | " & Ambiente.suc.nombreSucursal & " | " & Ambiente.conex.conexBuild(0).InitialCatalog & " | v1.4.4"
         Ambiente.accesoBotones.validaMenu("frmPrincipal", MenuStrip1)
     End Sub
 
